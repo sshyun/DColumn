@@ -1,4 +1,28 @@
 {
+  "name": "DColumn",
+  "description": "Dynamic Columns Viewer",
+  "version": "0.0.1",
+  "main": "Gruntfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sshyun/DColumn.git"
+  },
+  "keywords": [
+    "columns",
+    "html5"
+  ],
+  "author": "sshyun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sshyun/DColumn/issues"
+  },
+  "homepage": "https://github.com/sshyun/DColumn",
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -9,5 +33,13 @@
     "grunt-contrib-nodeunit": "~0.4.1",
     "grunt-contrib-concat": "~0.4.0",
     "grunt-contrib-uglify": "~0.5.0"
+  },
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "^0.4.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt-contrib-uglify": "^0.5.1",
+    "grunt-contrib-watch": "^0.6.1"
   }
 }
